@@ -120,9 +120,6 @@ class inUsa:
   usdToUSD = 1.00
   
     
-
-
-
 if currentCountry == "BZD":
   bTable = [["Belize", "BZD",float(inBelize.bzdToBZD)*float(format_initialValue )], ["Costa Rica", "CRC", float(inBelize.bzdToCRC)*float(format_initialValue )], ["El Salvador", "SVC", float(inBelize.bzdToSVC)*float(format_initialValue )],["Guatemala", "GTQ", float(inBelize.bzdToGTQ)*float(format_initialValue )],["Honduras", "HNL", float(inBelize.bzdToHNL)*float(format_initialValue )],["Nicaragua", "NIO", float(inBelize.bzdToNIO)*float(format_initialValue )],["Panama", "PAB", float(inBelize.bzdToPAB)*float(format_initialValue )],["United States", "USD", float(inBelize.bzdToUSD)*float(format_initialValue )],]
   table = tabulate(bTable, headers=['Country', 'Code', 'Currency Conversion'], tablefmt='orgtbl')
